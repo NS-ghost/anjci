@@ -1,0 +1,18 @@
+﻿<Page x:Class="kviz.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:kviz"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3">
+    <Grid Background="White" Width="500" Height="347">
+        <Label x:Name="lbl3" Foreground="HotPink" Content="Da li ste raspolozeni da &#xD;&#xA;sutra odigramo koju&#xD;&#xA; partiju uno karata?" Margin="37,35,64,224" FontSize="20" FontFamily="Courier New" FontWeight="Bold"/>
+        <Button x:Name="btnDalje2" Content="Dalje" HorizontalAlignment="Left" Margin="37,252,0,0" VerticalAlignment="Top" Height="34" Width="136" FontWeight="Bold" FontFamily="Courier New" FontSize="15" Click="btnDalje2_Click_1"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="213" Height="60" TextChanged="tb1_TextChanged" Margin="37,0,0,0"/>
+
+    </Grid>
+
+
+</Page>
