@@ -33,7 +33,7 @@ namespace kviz
 
         private void btnDalje5_Click(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Page6());
+            this.NavigationService.Navigate(new Page3());
         }
     }
 }
